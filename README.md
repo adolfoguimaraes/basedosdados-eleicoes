@@ -42,7 +42,7 @@ São utilizados dados de 3 tabelas:
 
 ## Processamento e visualização auxiliar dos Dados 
 
-O processamento dos dados está no arquivo: `code/ProcessarDados.ipynb`. Neste documento é datalhado e executado todo processo de coleta e processamento para separar as informações de interesse para construção das visualizações. Ao longo da análise, foram criadas visualizações auxiliares que ajudam no entendimento dos dados para a construção da visualização final. 
+O processamento dos dados está no arquivo: [code/ProcessarDados.ipynb](code/ProcessarDados.ipynb). Neste documento é datalhado e executado todo processo de coleta e processamento para separar as informações de interesse para construção das visualizações. Ao longo da análise, foram criadas visualizações auxiliares que ajudam no entendimento dos dados para a construção da visualização final. Caso tenha algum problema de visualizar o notebook aqui no GitHub, o mesmo pode ser visualizado no link: https://nbviewer.org/github/adolfoguimaraes/basedosdados-eleicoes/blob/main/code/ProcessarDados.ipynb.
 
 ## Visualização Final dos Dados 
 
