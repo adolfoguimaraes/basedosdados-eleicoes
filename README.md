@@ -38,15 +38,26 @@ A consulta consulta dados de 3 tabelas:
 * `basedosdados.br_tse_eleicoes.resultados_candidato`: utilizada para coletar os resultados obtidos pelos candidatos nas eleições. É nessa tabela que indica se a pessoa foi eleita ou não.
 * `basedosdados.br_bd_diretorios_brasil.municipio`: utilizada para pegar os nomes dos municípios.
 
-## Processamento e Análise dos Dados 
+## Processamento e Visualização dos Dados 
 
-O processamento dos dados está no arquivo: `code/ProcessarDados.ipynb`. Neste documento é datalhado e executado todo processo de coleta e processamento para separar as informações de interesse para construção das visualizações. 
+O processamento dos dados está no arquivo: `code/ProcessarDados.ipynb`. Neste documento é datalhado e executado todo processo de coleta e processamento para separar as informações de interesse para construção das visualizações. Ao longo da análise, foram criadas visualizações auxilizares que ajudam no entendimento dos dados para a construção da visualização final. 
 
-No documento `code/VisualizacaoDosDados.ipynb` é feita uma análise dos dados juntamente com algumas visualizações auxiliares que ajudam no entendimento das informações para a construção da visualização final. 
+## Visualização Final dos Dados 
 
-## Visualização dos Dados 
+A visualização final foi construída utilizando a biblioteca d3.js. O código foi construído diretamente em notebooks do ObservableHQ, mas os códigos foram inseridos nesse repositório e a visualização pode ser vista também na pasta `code/viz`. Para tal, basta abrir o arquivo `index.html` no navegador. A imagem em PNG da visualização está disponível na pasta `images`. Ao final do notebook de Processamento também é possível visualizar a mesma. 
 
-A visualização final foi construída utilizando a biblioteca d3.js. O código foi construído diretamente em notebooks do ObservableHQ, mas os códigos foram inseridos nesse repositório e a visualização pode ser vista também na pasta `code/viz`. Para tal, basta abrir o arquivo `index.html` no navegador. 
+A visualização é composta de 3 partes: 
+
+* A primeira parte composta por `gráficos de barras` que ajudam a visualizar em mais detalhes a proporção de mulheres candidatas e eleitas ao longo dos últimos 20 anos. A opção de colocar essas informações em um mesmo sistema de eixos foi para facilitar a comparação. Associada a essa parte foram colocados dois outros gráficos de barras para o agrupamento de raça. Os gráficos foram colocados de lado do gráfico principal para reforçar que é um recorte dos dados apresentados anteriormente. 
+* A segunda parte é formado pelo o `Unit Chart`. Nesse tipo de gráfico, cada unidade representa uma informação dos dados. Nesse caso, cada quadrado é um candidato eleito para câmara municipal de Aracaju ordenados por votos. A proposta foi mostrar a posição em relação ao número de votos e ressaltar que em 2020 foi a primeira vez que uma é eleita como a pessoa mais votada. 
+* Por fim, na terceira parte usei um `Scatter Plot` adapatado para dados categóricos no eixo Y. Isso permite verificar a posição de todos os municípios quando analisamos a % de mulheres eleitas. O objetivo foi mostrar que existe sim uma variação maior do que na média, mas ainda assim, as cˆmaras municipais se mantém majoritariamente formada por homens.
+
+Ao longo da visualização foram adicionadas anotações e linhas para guiar o usuário no entendimento dos dados apresentados. As anotações tem o intuito de informar e facilitar a interpretação já apresentada pela visualização por si só. 
+
+As cores escolhidas trabalham com um grau d contraste que permite diferencia-las entre si e destacar as informações de interesse. A combinação de cores foi testada para verificar se pessoas com alguma deficiência visual não conseguiriam distingui-las. O teste pode ser visto no site: https://projects.susielu.com/viz-palette?colors=[%22#d8b365%22,%22#5a6773%22,%22#7e8d9b%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22. Nenhum conflito foi encontrado entre as cores para diferentes tipos de deficiência visual.
+
+Os arquivos de entrada para essas visualizações estão na pasta `output` e foram gerados no arquivo de Processamento dos Dados. 
+
 
 ## Sobre mim
 

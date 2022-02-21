@@ -13,6 +13,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2000,2800605,Barra dos Coqueiros,masculino,9,11.0,0.8181818181818182
 2000,2800670,Boquim,feminino,1,12.0,0.08333333333333333
 2000,2800670,Boquim,masculino,11,12.0,0.9166666666666666
+2000,2800704,Brejo Grande,feminino,0,7.0,0.0
 2000,2800704,Brejo Grande,masculino,7,7.0,1.0
 2000,2801009,Campo do Brito,feminino,2,10.0,0.2
 2000,2801009,Campo do Brito,masculino,8,10.0,0.8
@@ -68,10 +69,13 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2000,2803609,Laranjeiras,masculino,7,11.0,0.6363636363636364
 2000,2803708,Macambira,feminino,2,9.0,0.2222222222222222
 2000,2803708,Macambira,masculino,7,9.0,0.7777777777777778
+2000,2803807,Malhada dos Bois,feminino,0,9.0,0.0
 2000,2803807,Malhada dos Bois,masculino,9,9.0,1.0
 2000,2803906,Malhador,feminino,1,10.0,0.1
 2000,2803906,Malhador,masculino,9,10.0,0.9
+2000,2804003,Maruim,feminino,0,11.0,0.0
 2000,2804003,Maruim,masculino,11,11.0,1.0
+2000,2804102,Moita Bonita,feminino,0,9.0,0.0
 2000,2804102,Moita Bonita,masculino,9,9.0,1.0
 2000,2804201,Monte Alegre de Sergipe,feminino,2,10.0,0.2
 2000,2804201,Monte Alegre de Sergipe,masculino,8,10.0,0.8
@@ -83,21 +87,27 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2000,2804458,Nossa Senhora Aparecida,masculino,7,9.0,0.7777777777777778
 2000,2804508,Nossa Senhora da Glória,feminino,3,12.0,0.25
 2000,2804508,Nossa Senhora da Glória,masculino,9,12.0,0.75
+2000,2804607,Nossa Senhora das Dores,feminino,0,11.0,0.0
 2000,2804607,Nossa Senhora das Dores,masculino,11,11.0,1.0
+2000,2804706,Nossa Senhora de Lourdes,feminino,0,9.0,0.0
 2000,2804706,Nossa Senhora de Lourdes,masculino,9,9.0,1.0
 2000,2804805,Nossa Senhora do Socorro,feminino,4,17.0,0.23529411764705882
 2000,2804805,Nossa Senhora do Socorro,masculino,13,17.0,0.7647058823529411
 2000,2804904,Pacatuba,feminino,2,10.0,0.2
 2000,2804904,Pacatuba,masculino,8,10.0,0.8
+2000,2805000,Pedra Mole,feminino,0,9.0,0.0
 2000,2805000,Pedra Mole,masculino,9,9.0,1.0
 2000,2805109,Pedrinhas,feminino,2,9.0,0.2222222222222222
 2000,2805109,Pedrinhas,masculino,7,9.0,0.7777777777777778
+2000,2805208,Pinhão,feminino,0,9.0,0.0
 2000,2805208,Pinhão,masculino,9,9.0,1.0
 2000,2805307,Pirambu,feminino,1,8.0,0.125
 2000,2805307,Pirambu,masculino,7,8.0,0.875
+2000,2805406,Poço Redondo,feminino,0,13.0,0.0
 2000,2805406,Poço Redondo,masculino,13,13.0,1.0
 2000,2805505,Poço Verde,feminino,1,11.0,0.09090909090909091
 2000,2805505,Poço Verde,masculino,10,11.0,0.9090909090909091
+2000,2805604,Porto da Folha,feminino,0,14.0,0.0
 2000,2805604,Porto da Folha,masculino,14,14.0,1.0
 2000,2805703,Propriá,feminino,2,12.0,0.16666666666666666
 2000,2805703,Propriá,masculino,10,12.0,0.8333333333333334
@@ -113,6 +123,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2000,2806206,Salgado,masculino,8,11.0,0.7272727272727273
 2000,2806305,Santa Luzia do Itanhy,feminino,1,9.0,0.1111111111111111
 2000,2806305,Santa Luzia do Itanhy,masculino,8,9.0,0.8888888888888888
+2000,2806404,Santana do São Francisco,feminino,0,9.0,0.0
 2000,2806404,Santana do São Francisco,masculino,9,9.0,1.0
 2000,2806503,Santa Rosa de Lima,feminino,2,9.0,0.2222222222222222
 2000,2806503,Santa Rosa de Lima,masculino,7,9.0,0.7777777777777778
@@ -120,7 +131,9 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2000,2806602,Santo Amaro das Brotas,masculino,8,10.0,0.8
 2000,2806701,São Cristóvão,feminino,1,17.0,0.058823529411764705
 2000,2806701,São Cristóvão,masculino,16,17.0,0.9411764705882353
+2000,2806800,São Domingos,feminino,0,9.0,0.0
 2000,2806800,São Domingos,masculino,9,9.0,1.0
+2000,2806909,São Francisco,feminino,0,9.0,0.0
 2000,2806909,São Francisco,masculino,9,9.0,1.0
 2000,2807006,São Miguel do Aleixo,feminino,4,9.0,0.4444444444444444
 2000,2807006,São Miguel do Aleixo,masculino,5,9.0,0.5555555555555556
@@ -132,6 +145,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2000,2807303,Telha,masculino,8,9.0,0.8888888888888888
 2000,2807402,Tobias Barreto,feminino,2,14.0,0.14285714285714285
 2000,2807402,Tobias Barreto,masculino,12,14.0,0.8571428571428571
+2000,2807501,Tomar do Geru,feminino,0,10.0,0.0
 2000,2807501,Tomar do Geru,masculino,10,10.0,1.0
 2000,2807600,Umbaúba,feminino,1,11.0,0.09090909090909091
 2000,2807600,Umbaúba,masculino,10,11.0,0.9090909090909091
@@ -153,11 +167,15 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2800704,Brejo Grande,masculino,7,9.0,0.7777777777777778
 2004,2801009,Campo do Brito,feminino,3,9.0,0.3333333333333333
 2004,2801009,Campo do Brito,masculino,6,9.0,0.6666666666666666
+2004,2801108,Canhoba,feminino,0,9.0,0.0
 2004,2801108,Canhoba,masculino,9,9.0,1.0
+2004,2801207,Canindé de São Francisco,feminino,0,9.0,0.0
 2004,2801207,Canindé de São Francisco,masculino,9,9.0,1.0
+2004,2801306,Capela,feminino,0,9.0,0.0
 2004,2801306,Capela,masculino,9,9.0,1.0
 2004,2801405,Carira,feminino,2,9.0,0.2222222222222222
 2004,2801405,Carira,masculino,7,9.0,0.7777777777777778
+2004,2801504,Carmópolis,feminino,0,9.0,0.0
 2004,2801504,Carmópolis,masculino,9,9.0,1.0
 2004,2801603,Cedro de São João,feminino,1,9.0,0.1111111111111111
 2004,2801603,Cedro de São João,masculino,8,9.0,0.8888888888888888
@@ -169,6 +187,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2802007,Divina Pastora,masculino,7,9.0,0.7777777777777778
 2004,2802106,Estância,feminino,1,10.0,0.1
 2004,2802106,Estância,masculino,9,10.0,0.9
+2004,2802205,Feira Nova,feminino,0,9.0,0.0
 2004,2802205,Feira Nova,masculino,9,9.0,1.0
 2004,2802304,Frei Paulo,feminino,4,9.0,0.4444444444444444
 2004,2802304,Frei Paulo,masculino,5,9.0,0.5555555555555556
@@ -202,9 +221,11 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2803708,Macambira,masculino,6,9.0,0.6666666666666666
 2004,2803807,Malhada dos Bois,feminino,1,9.0,0.1111111111111111
 2004,2803807,Malhada dos Bois,masculino,8,9.0,0.8888888888888888
+2004,2803906,Malhador,feminino,0,9.0,0.0
 2004,2803906,Malhador,masculino,9,9.0,1.0
 2004,2804003,Maruim,feminino,1,9.0,0.1111111111111111
 2004,2804003,Maruim,masculino,8,9.0,0.8888888888888888
+2004,2804102,Moita Bonita,feminino,0,9.0,0.0
 2004,2804102,Moita Bonita,masculino,9,9.0,1.0
 2004,2804201,Monte Alegre de Sergipe,feminino,1,9.0,0.1111111111111111
 2004,2804201,Monte Alegre de Sergipe,masculino,8,9.0,0.8888888888888888
@@ -212,6 +233,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2804300,Muribeca,masculino,7,9.0,0.7777777777777778
 2004,2804409,Neópolis,feminino,2,9.0,0.2222222222222222
 2004,2804409,Neópolis,masculino,7,9.0,0.7777777777777778
+2004,2804458,Nossa Senhora Aparecida,feminino,0,9.0,0.0
 2004,2804458,Nossa Senhora Aparecida,masculino,9,9.0,1.0
 2004,2804508,Nossa Senhora da Glória,feminino,1,9.0,0.1111111111111111
 2004,2804508,Nossa Senhora da Glória,masculino,8,9.0,0.8888888888888888
@@ -225,19 +247,23 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2804904,Pacatuba,masculino,6,9.0,0.6666666666666666
 2004,2805000,Pedra Mole,feminino,1,9.0,0.1111111111111111
 2004,2805000,Pedra Mole,masculino,8,9.0,0.8888888888888888
+2004,2805109,Pedrinhas,feminino,0,9.0,0.0
 2004,2805109,Pedrinhas,masculino,9,9.0,1.0
 2004,2805208,Pinhão,feminino,3,9.0,0.3333333333333333
 2004,2805208,Pinhão,masculino,6,9.0,0.6666666666666666
 2004,2805307,Pirambu,feminino,2,9.0,0.2222222222222222
 2004,2805307,Pirambu,masculino,7,9.0,0.7777777777777778
+2004,2805406,Poço Redondo,feminino,0,8.0,0.0
 2004,2805406,Poço Redondo,masculino,8,8.0,1.0
 2004,2805505,Poço Verde,feminino,2,9.0,0.2222222222222222
 2004,2805505,Poço Verde,masculino,7,9.0,0.7777777777777778
+2004,2805604,Porto da Folha,feminino,0,9.0,0.0
 2004,2805604,Porto da Folha,masculino,9,9.0,1.0
 2004,2805703,Propriá,feminino,2,9.0,0.2222222222222222
 2004,2805703,Propriá,masculino,7,9.0,0.7777777777777778
 2004,2805802,Riachão do Dantas,feminino,1,9.0,0.1111111111111111
 2004,2805802,Riachão do Dantas,masculino,8,9.0,0.8888888888888888
+2004,2805901,Riachuelo,feminino,0,9.0,0.0
 2004,2805901,Riachuelo,masculino,9,9.0,1.0
 2004,2806008,Ribeirópolis,feminino,3,9.0,0.3333333333333333
 2004,2806008,Ribeirópolis,masculino,6,9.0,0.6666666666666666
@@ -251,8 +277,11 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2806404,Santana do São Francisco,masculino,7,8.0,0.875
 2004,2806503,Santa Rosa de Lima,feminino,2,9.0,0.2222222222222222
 2004,2806503,Santa Rosa de Lima,masculino,7,9.0,0.7777777777777778
+2004,2806602,Santo Amaro das Brotas,feminino,0,9.0,0.0
 2004,2806602,Santo Amaro das Brotas,masculino,9,9.0,1.0
+2004,2806701,São Cristóvão,feminino,0,10.0,0.0
 2004,2806701,São Cristóvão,masculino,10,10.0,1.0
+2004,2806800,São Domingos,feminino,0,9.0,0.0
 2004,2806800,São Domingos,masculino,9,9.0,1.0
 2004,2806909,São Francisco,feminino,3,9.0,0.3333333333333333
 2004,2806909,São Francisco,masculino,6,9.0,0.6666666666666666
@@ -260,7 +289,9 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2004,2807006,São Miguel do Aleixo,masculino,7,9.0,0.7777777777777778
 2004,2807105,Simão Dias,feminino,3,9.0,0.3333333333333333
 2004,2807105,Simão Dias,masculino,6,9.0,0.6666666666666666
+2004,2807204,Siriri,feminino,0,9.0,0.0
 2004,2807204,Siriri,masculino,9,9.0,1.0
+2004,2807303,Telha,feminino,0,9.0,0.0
 2004,2807303,Telha,masculino,9,9.0,1.0
 2004,2807402,Tobias Barreto,feminino,1,9.0,0.1111111111111111
 2004,2807402,Tobias Barreto,masculino,8,9.0,0.8888888888888888
@@ -282,11 +313,13 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2800605,Barra dos Coqueiros,masculino,8,9.0,0.8888888888888888
 2008,2800670,Boquim,feminino,2,9.0,0.2222222222222222
 2008,2800670,Boquim,masculino,7,9.0,0.7777777777777778
+2008,2800704,Brejo Grande,feminino,0,9.0,0.0
 2008,2800704,Brejo Grande,masculino,9,9.0,1.0
 2008,2801009,Campo do Brito,feminino,1,9.0,0.1111111111111111
 2008,2801009,Campo do Brito,masculino,8,9.0,0.8888888888888888
 2008,2801108,Canhoba,feminino,1,9.0,0.1111111111111111
 2008,2801108,Canhoba,masculino,8,9.0,0.8888888888888888
+2008,2801207,Canindé de São Francisco,feminino,0,9.0,0.0
 2008,2801207,Canindé de São Francisco,masculino,9,9.0,1.0
 2008,2801306,Capela,feminino,2,9.0,0.2222222222222222
 2008,2801306,Capela,masculino,7,9.0,0.7777777777777778
@@ -300,17 +333,21 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2801702,Cristinápolis,masculino,6,9.0,0.6666666666666666
 2008,2801900,Cumbe,feminino,1,9.0,0.1111111111111111
 2008,2801900,Cumbe,masculino,8,9.0,0.8888888888888888
+2008,2802007,Divina Pastora,feminino,0,9.0,0.0
 2008,2802007,Divina Pastora,masculino,9,9.0,1.0
+2008,2802106,Estância,feminino,0,10.0,0.0
 2008,2802106,Estância,masculino,10,10.0,1.0
 2008,2802205,Feira Nova,feminino,1,9.0,0.1111111111111111
 2008,2802205,Feira Nova,masculino,8,9.0,0.8888888888888888
 2008,2802304,Frei Paulo,feminino,3,9.0,0.3333333333333333
 2008,2802304,Frei Paulo,masculino,6,9.0,0.6666666666666666
+2008,2802403,Gararu,feminino,0,9.0,0.0
 2008,2802403,Gararu,masculino,9,9.0,1.0
 2008,2802502,General Maynard,feminino,2,9.0,0.2222222222222222
 2008,2802502,General Maynard,masculino,7,9.0,0.7777777777777778
 2008,2802601,Gracho Cardoso,feminino,1,9.0,0.1111111111111111
 2008,2802601,Gracho Cardoso,masculino,8,9.0,0.8888888888888888
+2008,2802700,Ilha das Flores,feminino,0,9.0,0.0
 2008,2802700,Ilha das Flores,masculino,9,9.0,1.0
 2008,2802809,Indiaroba,feminino,2,9.0,0.2222222222222222
 2008,2802809,Indiaroba,masculino,7,9.0,0.7777777777777778
@@ -320,11 +357,13 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2803005,Itabaianinha,masculino,6,9.0,0.6666666666666666
 2008,2803104,Itabi,feminino,3,9.0,0.3333333333333333
 2008,2803104,Itabi,masculino,6,9.0,0.6666666666666666
+2008,2803203,Itaporanga d'Ajuda,feminino,0,9.0,0.0
 2008,2803203,Itaporanga d'Ajuda,masculino,9,9.0,1.0
 2008,2803302,Japaratuba,feminino,2,9.0,0.2222222222222222
 2008,2803302,Japaratuba,masculino,7,9.0,0.7777777777777778
 2008,2803401,Japoatã,feminino,2,9.0,0.2222222222222222
 2008,2803401,Japoatã,masculino,7,9.0,0.7777777777777778
+2008,2803500,Lagarto,feminino,0,10.0,0.0
 2008,2803500,Lagarto,masculino,10,10.0,1.0
 2008,2803609,Laranjeiras,feminino,4,9.0,0.4444444444444444
 2008,2803609,Laranjeiras,masculino,5,9.0,0.5555555555555556
@@ -338,6 +377,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2804003,Maruim,masculino,8,9.0,0.8888888888888888
 2008,2804102,Moita Bonita,feminino,1,9.0,0.1111111111111111
 2008,2804102,Moita Bonita,masculino,8,9.0,0.8888888888888888
+2008,2804201,Monte Alegre de Sergipe,feminino,0,9.0,0.0
 2008,2804201,Monte Alegre de Sergipe,masculino,9,9.0,1.0
 2008,2804300,Muribeca,feminino,1,9.0,0.1111111111111111
 2008,2804300,Muribeca,masculino,8,9.0,0.8888888888888888
@@ -355,11 +395,15 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2804805,Nossa Senhora do Socorro,masculino,10,12.0,0.8333333333333334
 2008,2804904,Pacatuba,feminino,3,9.0,0.3333333333333333
 2008,2804904,Pacatuba,masculino,6,9.0,0.6666666666666666
+2008,2805000,Pedra Mole,feminino,0,9.0,0.0
 2008,2805000,Pedra Mole,masculino,9,9.0,1.0
+2008,2805109,Pedrinhas,feminino,0,10.0,0.0
 2008,2805109,Pedrinhas,masculino,10,10.0,1.0
 2008,2805208,Pinhão,feminino,3,9.0,0.3333333333333333
 2008,2805208,Pinhão,masculino,6,9.0,0.6666666666666666
+2008,2805307,Pirambu,feminino,0,9.0,0.0
 2008,2805307,Pirambu,masculino,9,9.0,1.0
+2008,2805406,Poço Redondo,feminino,0,8.0,0.0
 2008,2805406,Poço Redondo,masculino,8,8.0,1.0
 2008,2805505,Poço Verde,feminino,2,9.0,0.2222222222222222
 2008,2805505,Poço Verde,masculino,7,9.0,0.7777777777777778
@@ -379,12 +423,15 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2806206,Salgado,masculino,7,9.0,0.7777777777777778
 2008,2806305,Santa Luzia do Itanhy,feminino,1,9.0,0.1111111111111111
 2008,2806305,Santa Luzia do Itanhy,masculino,8,9.0,0.8888888888888888
+2008,2806404,Santana do São Francisco,feminino,0,8.0,0.0
 2008,2806404,Santana do São Francisco,masculino,8,8.0,1.0
 2008,2806503,Santa Rosa de Lima,feminino,2,9.0,0.2222222222222222
 2008,2806503,Santa Rosa de Lima,masculino,7,9.0,0.7777777777777778
 2008,2806602,Santo Amaro das Brotas,feminino,1,9.0,0.1111111111111111
 2008,2806602,Santo Amaro das Brotas,masculino,8,9.0,0.8888888888888888
+2008,2806701,São Cristóvão,feminino,0,10.0,0.0
 2008,2806701,São Cristóvão,masculino,10,10.0,1.0
+2008,2806800,São Domingos,feminino,0,9.0,0.0
 2008,2806800,São Domingos,masculino,9,9.0,1.0
 2008,2806909,São Francisco,feminino,1,9.0,0.1111111111111111
 2008,2806909,São Francisco,masculino,8,9.0,0.8888888888888888
@@ -392,9 +439,11 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2008,2807006,São Miguel do Aleixo,masculino,6,9.0,0.6666666666666666
 2008,2807105,Simão Dias,feminino,1,9.0,0.1111111111111111
 2008,2807105,Simão Dias,masculino,8,9.0,0.8888888888888888
+2008,2807204,Siriri,feminino,0,9.0,0.0
 2008,2807204,Siriri,masculino,9,9.0,1.0
 2008,2807303,Telha,feminino,1,9.0,0.1111111111111111
 2008,2807303,Telha,masculino,8,9.0,0.8888888888888888
+2008,2807402,Tobias Barreto,feminino,0,9.0,0.0
 2008,2807402,Tobias Barreto,masculino,9,9.0,1.0
 2008,2807501,Tomar do Geru,feminino,2,9.0,0.2222222222222222
 2008,2807501,Tomar do Geru,masculino,7,9.0,0.7777777777777778
@@ -414,6 +463,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2800605,Barra dos Coqueiros,masculino,10,11.0,0.9090909090909091
 2012,2800670,Boquim,feminino,2,11.0,0.18181818181818182
 2012,2800670,Boquim,masculino,9,11.0,0.8181818181818182
+2012,2800704,Brejo Grande,feminino,0,9.0,0.0
 2012,2800704,Brejo Grande,masculino,9,9.0,1.0
 2012,2801009,Campo do Brito,feminino,1,11.0,0.09090909090909091
 2012,2801009,Campo do Brito,masculino,10,11.0,0.9090909090909091
@@ -425,6 +475,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2801306,Capela,masculino,11,13.0,0.8461538461538461
 2012,2801405,Carira,feminino,2,12.0,0.16666666666666666
 2012,2801405,Carira,masculino,10,12.0,0.8333333333333334
+2012,2801504,Carmópolis,feminino,0,9.0,0.0
 2012,2801504,Carmópolis,masculino,9,9.0,1.0
 2012,2801603,Cedro de São João,feminino,2,9.0,0.2222222222222222
 2012,2801603,Cedro de São João,masculino,7,9.0,0.7777777777777778
@@ -434,12 +485,15 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2801900,Cumbe,masculino,8,9.0,0.8888888888888888
 2012,2802007,Divina Pastora,feminino,1,9.0,0.1111111111111111
 2012,2802007,Divina Pastora,masculino,8,9.0,0.8888888888888888
+2012,2802106,Estância,feminino,0,12.0,0.0
 2012,2802106,Estância,masculino,12,12.0,1.0
+2012,2802205,Feira Nova,feminino,0,9.0,0.0
 2012,2802205,Feira Nova,masculino,9,9.0,1.0
 2012,2802304,Frei Paulo,feminino,2,9.0,0.2222222222222222
 2012,2802304,Frei Paulo,masculino,7,9.0,0.7777777777777778
 2012,2802403,Gararu,feminino,1,9.0,0.1111111111111111
 2012,2802403,Gararu,masculino,8,9.0,0.8888888888888888
+2012,2802502,General Maynard,feminino,0,9.0,0.0
 2012,2802502,General Maynard,masculino,9,9.0,1.0
 2012,2802601,Gracho Cardoso,feminino,1,9.0,0.1111111111111111
 2012,2802601,Gracho Cardoso,masculino,8,9.0,0.8888888888888888
@@ -451,6 +505,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2802908,Itabaiana,masculino,10,12.0,0.8333333333333334
 2012,2803005,Itabaianinha,feminino,4,13.0,0.3076923076923077
 2012,2803005,Itabaianinha,masculino,9,13.0,0.6923076923076923
+2012,2803104,Itabi,feminino,0,9.0,0.0
 2012,2803104,Itabi,masculino,9,9.0,1.0
 2012,2803203,Itaporanga d'Ajuda,feminino,3,13.0,0.23076923076923078
 2012,2803203,Itaporanga d'Ajuda,masculino,10,13.0,0.7692307692307693
@@ -482,6 +537,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2804458,Nossa Senhora Aparecida,masculino,7,9.0,0.7777777777777778
 2012,2804508,Nossa Senhora da Glória,feminino,6,13.0,0.46153846153846156
 2012,2804508,Nossa Senhora da Glória,masculino,7,13.0,0.5384615384615384
+2012,2804607,Nossa Senhora das Dores,feminino,0,11.0,0.0
 2012,2804607,Nossa Senhora das Dores,masculino,11,11.0,1.0
 2012,2804706,Nossa Senhora de Lourdes,feminino,1,9.0,0.1111111111111111
 2012,2804706,Nossa Senhora de Lourdes,masculino,8,9.0,0.8888888888888888
@@ -491,6 +547,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2804904,Pacatuba,masculino,7,9.0,0.7777777777777778
 2012,2805000,Pedra Mole,feminino,1,9.0,0.1111111111111111
 2012,2805000,Pedra Mole,masculino,8,9.0,0.8888888888888888
+2012,2805109,Pedrinhas,feminino,0,9.0,0.0
 2012,2805109,Pedrinhas,masculino,9,9.0,1.0
 2012,2805208,Pinhão,feminino,1,9.0,0.1111111111111111
 2012,2805208,Pinhão,masculino,8,9.0,0.8888888888888888
@@ -536,6 +593,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2012,2807204,Siriri,masculino,7,9.0,0.7777777777777778
 2012,2807303,Telha,feminino,1,9.0,0.1111111111111111
 2012,2807303,Telha,masculino,8,9.0,0.8888888888888888
+2012,2807402,Tobias Barreto,feminino,0,13.0,0.0
 2012,2807402,Tobias Barreto,masculino,13,13.0,1.0
 2012,2807501,Tomar do Geru,feminino,1,9.0,0.1111111111111111
 2012,2807501,Tomar do Geru,masculino,8,9.0,0.8888888888888888
@@ -561,6 +619,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2016,2801009,Campo do Brito,masculino,9,11.0,0.8181818181818182
 2016,2801108,Canhoba,feminino,2,9.0,0.2222222222222222
 2016,2801108,Canhoba,masculino,7,9.0,0.7777777777777778
+2016,2801207,Canindé de São Francisco,feminino,0,11.0,0.0
 2016,2801207,Canindé de São Francisco,masculino,11,11.0,1.0
 2016,2801306,Capela,feminino,3,13.0,0.23076923076923078
 2016,2801306,Capela,masculino,10,13.0,0.7692307692307693
@@ -572,6 +631,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2016,2801603,Cedro de São João,masculino,5,9.0,0.5555555555555556
 2016,2801702,Cristinápolis,feminino,1,11.0,0.09090909090909091
 2016,2801702,Cristinápolis,masculino,10,11.0,0.9090909090909091
+2016,2801900,Cumbe,feminino,0,9.0,0.0
 2016,2801900,Cumbe,masculino,9,9.0,1.0
 2016,2802007,Divina Pastora,feminino,1,9.0,0.1111111111111111
 2016,2802007,Divina Pastora,masculino,8,9.0,0.8888888888888888
@@ -619,12 +679,15 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2016,2804102,Moita Bonita,masculino,7,9.0,0.7777777777777778
 2016,2804201,Monte Alegre de Sergipe,feminino,1,9.0,0.1111111111111111
 2016,2804201,Monte Alegre de Sergipe,masculino,8,9.0,0.8888888888888888
+2016,2804300,Muribeca,feminino,0,9.0,0.0
 2016,2804300,Muribeca,masculino,9,9.0,1.0
 2016,2804409,Neópolis,feminino,2,11.0,0.18181818181818182
 2016,2804409,Neópolis,masculino,9,11.0,0.8181818181818182
+2016,2804458,Nossa Senhora Aparecida,feminino,0,9.0,0.0
 2016,2804458,Nossa Senhora Aparecida,masculino,9,9.0,1.0
 2016,2804508,Nossa Senhora da Glória,feminino,6,13.0,0.46153846153846156
 2016,2804508,Nossa Senhora da Glória,masculino,7,13.0,0.5384615384615384
+2016,2804607,Nossa Senhora das Dores,feminino,0,11.0,0.0
 2016,2804607,Nossa Senhora das Dores,masculino,11,11.0,1.0
 2016,2804706,Nossa Senhora de Lourdes,feminino,1,9.0,0.1111111111111111
 2016,2804706,Nossa Senhora de Lourdes,masculino,8,9.0,0.8888888888888888
@@ -634,7 +697,9 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2016,2804904,Pacatuba,masculino,7,9.0,0.7777777777777778
 2016,2805000,Pedra Mole,feminino,2,9.0,0.2222222222222222
 2016,2805000,Pedra Mole,masculino,7,9.0,0.7777777777777778
+2016,2805109,Pedrinhas,feminino,0,9.0,0.0
 2016,2805109,Pedrinhas,masculino,9,9.0,1.0
+2016,2805208,Pinhão,feminino,0,9.0,0.0
 2016,2805208,Pinhão,masculino,9,9.0,1.0
 2016,2805307,Pirambu,feminino,4,9.0,0.4444444444444444
 2016,2805307,Pirambu,masculino,5,9.0,0.5555555555555556
@@ -646,6 +711,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2016,2805604,Porto da Folha,masculino,8,11.0,0.7272727272727273
 2016,2805703,Propriá,feminino,2,11.0,0.18181818181818182
 2016,2805703,Propriá,masculino,9,11.0,0.8181818181818182
+2016,2805802,Riachão do Dantas,feminino,0,13.0,0.0
 2016,2805802,Riachão do Dantas,masculino,13,13.0,1.0
 2016,2805901,Riachuelo,feminino,2,9.0,0.2222222222222222
 2016,2805901,Riachuelo,masculino,7,9.0,0.7777777777777778
@@ -655,14 +721,19 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2016,2806107,Rosário do Catete,masculino,8,9.0,0.8888888888888888
 2016,2806206,Salgado,feminino,3,11.0,0.2727272727272727
 2016,2806206,Salgado,masculino,8,11.0,0.7272727272727273
+2016,2806305,Santa Luzia do Itanhy,feminino,0,9.0,0.0
 2016,2806305,Santa Luzia do Itanhy,masculino,9,9.0,1.0
+2016,2806404,Santana do São Francisco,feminino,0,9.0,0.0
 2016,2806404,Santana do São Francisco,masculino,9,9.0,1.0
 2016,2806503,Santa Rosa de Lima,feminino,2,9.0,0.2222222222222222
 2016,2806503,Santa Rosa de Lima,masculino,7,9.0,0.7777777777777778
+2016,2806602,Santo Amaro das Brotas,feminino,0,9.0,0.0
 2016,2806602,Santo Amaro das Brotas,masculino,9,9.0,1.0
+2016,2806701,São Cristóvão,feminino,0,15.0,0.0
 2016,2806701,São Cristóvão,masculino,15,15.0,1.0
 2016,2806800,São Domingos,feminino,1,9.0,0.1111111111111111
 2016,2806800,São Domingos,masculino,8,9.0,0.8888888888888888
+2016,2806909,São Francisco,feminino,0,11.0,0.0
 2016,2806909,São Francisco,masculino,11,11.0,1.0
 2016,2807006,São Miguel do Aleixo,feminino,4,9.0,0.4444444444444444
 2016,2807006,São Miguel do Aleixo,masculino,5,9.0,0.5555555555555556
@@ -710,6 +781,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2020,2801603,Cedro de São João,masculino,7,9.0,0.7777777777777778
 2020,2801702,Cristinápolis,feminino,2,11.0,0.18181818181818182
 2020,2801702,Cristinápolis,masculino,9,11.0,0.8181818181818182
+2020,2801900,Cumbe,feminino,0,9.0,0.0
 2020,2801900,Cumbe,masculino,9,9.0,1.0
 2020,2802007,Divina Pastora,feminino,1,9.0,0.1111111111111111
 2020,2802007,Divina Pastora,masculino,8,9.0,0.8888888888888888
@@ -765,6 +837,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2020,2804458,Nossa Senhora Aparecida,masculino,5,9.0,0.5555555555555556
 2020,2804508,Nossa Senhora da Glória,feminino,3,13.0,0.23076923076923078
 2020,2804508,Nossa Senhora da Glória,masculino,10,13.0,0.7692307692307693
+2020,2804607,Nossa Senhora das Dores,feminino,0,11.0,0.0
 2020,2804607,Nossa Senhora das Dores,masculino,11,11.0,1.0
 2020,2804706,Nossa Senhora de Lourdes,feminino,1,9.0,0.1111111111111111
 2020,2804706,Nossa Senhora de Lourdes,masculino,8,9.0,0.8888888888888888
@@ -772,9 +845,11 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2020,2804805,Nossa Senhora do Socorro,masculino,16,21.0,0.7619047619047619
 2020,2804904,Pacatuba,feminino,3,9.0,0.3333333333333333
 2020,2804904,Pacatuba,masculino,6,9.0,0.6666666666666666
+2020,2805000,Pedra Mole,feminino,0,9.0,0.0
 2020,2805000,Pedra Mole,masculino,9,9.0,1.0
 2020,2805109,Pedrinhas,feminino,1,9.0,0.1111111111111111
 2020,2805109,Pedrinhas,masculino,8,9.0,0.8888888888888888
+2020,2805208,Pinhão,feminino,0,9.0,0.0
 2020,2805208,Pinhão,masculino,9,9.0,1.0
 2020,2805307,Pirambu,feminino,3,9.0,0.3333333333333333
 2020,2805307,Pirambu,masculino,6,9.0,0.6666666666666666
@@ -788,6 +863,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2020,2805703,Propriá,masculino,9,11.0,0.8181818181818182
 2020,2805802,Riachão do Dantas,feminino,2,11.0,0.18181818181818182
 2020,2805802,Riachão do Dantas,masculino,9,11.0,0.8181818181818182
+2020,2805901,Riachuelo,feminino,0,9.0,0.0
 2020,2805901,Riachuelo,masculino,9,9.0,1.0
 2020,2806008,Ribeirópolis,feminino,1,11.0,0.09090909090909091
 2020,2806008,Ribeirópolis,masculino,10,11.0,0.9090909090909091
@@ -795,6 +871,7 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2020,2806107,Rosário do Catete,masculino,8,9.0,0.8888888888888888
 2020,2806206,Salgado,feminino,3,11.0,0.2727272727272727
 2020,2806206,Salgado,masculino,8,11.0,0.7272727272727273
+2020,2806305,Santa Luzia do Itanhy,feminino,0,9.0,0.0
 2020,2806305,Santa Luzia do Itanhy,masculino,9,9.0,1.0
 2020,2806404,Santana do São Francisco,feminino,2,9.0,0.2222222222222222
 2020,2806404,Santana do São Francisco,masculino,7,9.0,0.7777777777777778
@@ -802,7 +879,9 @@ ano,id_municipio,nome_municipio,genero,total_por_genero,total,porcentagem
 2020,2806503,Santa Rosa de Lima,masculino,7,9.0,0.7777777777777778
 2020,2806602,Santo Amaro das Brotas,feminino,2,9.0,0.2222222222222222
 2020,2806602,Santo Amaro das Brotas,masculino,7,9.0,0.7777777777777778
+2020,2806701,São Cristóvão,feminino,0,17.0,0.0
 2020,2806701,São Cristóvão,masculino,17,17.0,1.0
+2020,2806800,São Domingos,feminino,0,9.0,0.0
 2020,2806800,São Domingos,masculino,9,9.0,1.0
 2020,2806909,São Francisco,feminino,2,9.0,0.2222222222222222
 2020,2806909,São Francisco,masculino,7,9.0,0.7777777777777778
