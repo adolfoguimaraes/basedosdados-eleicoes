@@ -60,7 +60,7 @@ As cores escolhidas trabalham com um grau de contraste que permite diferencia-la
 
 Os arquivos de entrada para essas visualizações estão na pasta [output](output/) e foram gerados no arquivo de Processamento dos Dados. Esses dados são carregados no ObervableHQ para alimentar a visualização final.
 
-### Bibliotecas Utilizadas neste projeto
+### Bibliotecas utilizadas neste projeto
 
 * [API Base dos Dados](https://basedosdados.github.io/mais/api_reference_python/)
 * [Pandas](https://pandas.pydata.org/)

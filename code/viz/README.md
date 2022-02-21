@@ -2,7 +2,7 @@
 
 Visualização Final
 
-Essa visualização foi criada diretamente no ObservableHQ utilizando D3.js. O código é todo JavaScript e pode ser vizualizado no arquivo `0dc3125f0d7dc851@1189.js` ou acessado diretamente no notebook: https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes.
+Essa visualização foi criada diretamente no ObservableHQ utilizando `D3.js`. O código é todo em JavaScript e pode ser vizualizado no arquivo `0dc3125f0d7dc851@1189.js` ou acessado diretamente no notebook: https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes.
 
 Se deseja visualizar no seu próprio navegador, basta rodar o comando a seguir nesta pasta: 
 
