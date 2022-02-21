@@ -1,0 +1,14 @@
+{
+  "name": "@adolfoguimaraes/basedosdados-eleicoes",
+  "main": "0dc3125f0d7dc851@1189.js",
+  "version": "1189.0.0",
+  "homepage": "https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes",
+  "author": {
+    "name": "Adolfo Guimarães",
+    "url": "https://observablehq.com/@adolfoguimaraes"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
