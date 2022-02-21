@@ -14,17 +14,22 @@ Os dados foram coletados diretamente do `datalake` do projeto Base dos Dados. O 
 
 ```sql 
 SELECT 
-    b1.ano, b2.sigla_uf, b2.id_municipio, b3.nome as nome_municipio, b1.tipo_eleicao, b1.id_candidato_bd, b1.nome_urna, b1.sigla_partido, 
+    b1.ano, b2.sigla_uf, b2.id_municipio, b3.nome as nome_municipio, b1.tipo_eleicao, 
+    b1.id_candidato_bd, b1.nome_urna, b1.sigla_partido, 
     b1.cargo, b1.situacao, b2.resultado, b2.votos, b1.genero, b1.raca, b1.idade
-FROM 
-  `basedosdados.br_tse_eleicoes.candidatos` b1,
-  `basedosdados.br_tse_eleicoes.resultados_candidato` b2
-INNER JOIN `basedosdados.br_bd_diretorios_brasil.municipio` b3
-ON b3.id_municipio = b1.id_municipio
+FROM
+    `basedosdados.br_tse_eleicoes.candidatos` b1,
+    `basedosdados.br_tse_eleicoes.resultados_candidato` b2
+INNER JOIN 
+    `basedosdados.br_bd_diretorios_brasil.municipio` b3
+ON 
+    b3.id_municipio = b1.id_municipio
 WHERE 
-  b1.id_candidato_bd = b2.id_candidato_bd and b1.ano = b2.ano and b2.sigla_uf = 'SE' and b2.cargo = 'vereador'
-ORDER BY b1.ano, b1.id_candidato_bd
-
+  b1.id_candidato_bd = b2.id_candidato_bd and 
+  b1.ano = b2.ano and b2.sigla_uf = 'SE' and 
+  b2.cargo = 'vereador'
+ORDER BY 
+    b1.ano, b1.id_candidato_bd
 ```
 
 A consulta consulta dados de 3 tabelas: 
