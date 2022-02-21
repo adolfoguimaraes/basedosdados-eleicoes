@@ -2,15 +2,15 @@
 
 ## A visualização
 
-A imagem a seguir mostra a visualização final criada para esse trabalho. Ao longo do README e do notebook na pasta `code` deste repositório são fornecidos maiores detalhes do processo de como foi sair dos dados coletados e chegar nesta visualização. 
+A imagem a seguir mostra a visualização final criada para esse trabalho. Ao longo do README e do notebook na pasta [code](code/) deste repositório serão fornecidos maiores detalhes do processo de como foi sair dos dados coletados para chegar nesta visualização. 
 
 <img src="images/viz_final.png" /> 
 
-Toda a implementação da visualização foi desenvolvida em `D3.js` e pode ser encontrada no link: [https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes](https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes). Os códigos da visualização também podem ser encontrados na pasta `code/viz` deste repositório, onde se encontra instruções de como rodar para visualiza-las a partir deste código. Vizualizações auxiliares foram criadas no processo de entendimento dos dados. Neste caso, foi utilizada a biblioteca `plotly`.
+Toda a implementação da visualização final foi desenvolvida em `D3.js` e pode ser encontrada no link: [https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes](https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes). Os códigos da visualização também podem ser encontrados na pasta [code/viz](code/viz) deste repositório, onde se encontram as instruções de como rodar para visualiza-las a partir deste código. Vizualizações auxiliares também foram criadas no processo de entendimento dos dados e podem ser visualizadas ao longo do notebook de processamento. Neste caso, foi utilizada a biblioteca `plotly` para cria-las.
 
 ## Base dos Dados
 
-Os dados foram coletados diretamente do `datalake` do projeto Base dos Dados. O objetivo foi usar os dados das eleições para mostrar um perfil das candidaturas das câmaras municipais do estado de Sergipe nos últimos 20 anos. O enfoque foi mostrar aspectos relacionados ao gênero das pessoas candidatas e eleitas com alguns recortes da capital e dos demais municípios. 
+Os dados foram coletados diretamente do `datalake` do projeto [Base dos Dados](https://basedosdados.org/). O objetivo foi usar os dados das eleições para mostrar um perfil das candidaturas das câmaras municipais do estado de Sergipe nos últimos 20 anos. O enfoque foi mostrar aspectos relacionados ao gênero das pessoas candidatas e eleitas com alguns recortes da capital e dos demais municípios. 
 
 A consulta utilizada foi a seguinte: 
 
@@ -34,7 +34,7 @@ ORDER BY
     b1.ano, b1.id_candidato_bd
 ```
 
-São utilizados dados de 3 tabelas: 
+Foram utilizados dados de 3 tabelas: 
 
 * `basedosdados.br_tse_eleicoes.candidatos`: utilizada para pegar a lista de candidatos que concorreram as eleições com as informações pessoais, como gênero, por exemplo.
 * `basedosdados.br_tse_eleicoes.resultados_candidato`: utilizada para coletar os resultados obtidos pelos candidatos nas eleições. É nessa tabela que indica se a pessoa foi eleita ou não.
@@ -42,20 +42,34 @@ São utilizados dados de 3 tabelas:
 
 ## Processamento e visualização auxiliar dos Dados 
 
-O processamento dos dados está no arquivo: [code/ProcessarDados.ipynb](code/ProcessarDados.ipynb). Neste documento é datalhado e executado todo processo de coleta e processamento para separar as informações de interesse para construção das visualizações. Ao longo da análise, foram criadas visualizações auxiliares que ajudam no entendimento dos dados para a construção da visualização final. Caso tenha algum problema de visualizar o notebook aqui no GitHub, o mesmo pode ser visualizado no link: https://nbviewer.org/github/adolfoguimaraes/basedosdados-eleicoes/blob/main/code/ProcessarDados.ipynb.
+O processamento dos dados está no arquivo: [code/ProcessarDados.ipynb](code/ProcessarDados.ipynb). Neste documento é datalhado e executado todo processo de coleta e processamento para separar as informações de interesse para construção das visualizações. Ao longo da análise, foram criadas visualizações auxiliares que ajudam no entendimento dos dados. Caso tenha algum problema em visualizar o notebook direto daqui do GitHub, o mesmo pode ser visualizado no link: https://nbviewer.org/github/adolfoguimaraes/basedosdados-eleicoes/blob/main/code/ProcessarDados.ipynb.
 
 ## Visualização Final dos Dados 
 
-A visualização final foi construída utilizando a biblioteca `D3.js`. O código foi construído diretamente em notebooks do [ObservableHQ](https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes), mas os códigos foram inseridos nesse repositório e a visualização pode ser vista também na pasta `code/viz`. Para tal, basta seguir as instruções contidas no README. A imagem em PNG da visualização está disponível na pasta `images`. Ao final do notebook de Processamento também é possível visualizar a mesma. 
+A visualização final foi construída utilizando a biblioteca `D3.js`. O código foi construído diretamente em notebooks do [ObservableHQ](https://observablehq.com/@adolfoguimaraes/basedosdados-eleicoes), mas os códigos foram inseridos nesse repositório e a visualização pode ser vista também na pasta [code/viz](code/viz). Para tal, basta seguir as instruções contidas no README. A imagem em PNG da visualização está disponível na pasta [images](images/). Ao final do notebook de processamento também é possível visualiza-la.
 
-A visualização é composta de 3 partes: 
+A visualização divide-se 3 partes: 
 
-* A primeira parte composta por `gráficos de barras` que ajudam a visualizar em mais detalhes a proporção de mulheres candidatas e eleitas ao longo dos últimos 20 anos. A opção de colocar essas informações em um mesmo sistema de eixos foi para facilitar a comparação. Associada a essa parte, foram colocados dois outros gráficos de barras para o agrupamento de raça. Os gráficos foram colocados de lado do gráfico principal para reforçar que é um recorte dos dados apresentados anteriormente. 
-* A segunda parte é formada por um `Unit Chart`. Nesse tipo de gráfico, cada unidade representa uma informação dos dados. Nesse caso, cada quadrado é um candidato eleito para câmara municipal de Aracaju ordenados pelo total de votos. A proposta foi mostrar a posição em relação ao número de votos e ressaltar que em 2020 foi a primeira vez que uma mulher foir eleita como a candidata mais votada.
+* A primeira parte é composta por `gráficos de barras` que ajudam a visualizar em mais detalhes a proporção de mulheres candidatas e eleitas ao longo dos últimos 20 anos. A opção de colocar essas informações em um mesmo sistema de eixos foi para facilitar a comparação. Associada a essa parte, foram colocados dois outros gráficos de barras para o agrupamento de raça. Os gráficos foram colocados ao lado do gráfico principal para reforçar que é um recorte dos dados apresentados anteriormente. 
+* A segunda parte é formada por um `Unit Chart`. Nesse tipo de gráfico, cada unidade representa uma informação dos dados. Nesse caso, cada quadrado é um candidato eleito para câmara municipal de Aracaju. Os quadrados foram ordenados pelo total de votos. A proposta foi mostrar a posição em relação ao número de votos e ressaltar que em 2020 foi a primeira vez que uma mulher foir eleita como a candidata mais votada.
 * Por fim, na terceira parte usei um `Scatter Plot` adapatado para dados categóricos no eixo Y. Isso permite verificar a posição de todos os municípios quando analisamos a % de mulheres eleitas. O objetivo foi mostrar que existe sim uma variação maior do que na média, mas ainda assim, as câmaras municipais se mantém majoritariamente formada por homens.
 
 Ao longo da visualização foram adicionadas anotações e linhas para guiar o usuário no entendimento dos dados apresentados. As anotações tem o intuito de informar e facilitar a interpretação dos gráficos.
 
-As cores escolhidas trabalham com um grau de contraste que permite diferencia-las entre si e destacar as informações de interesse. A combinação de cores foi testada para verificar se pessoas com alguma deficiência visual não conseguiriam distingui-las. O teste pode ser visto no site: https://projects.susielu.com/viz-palette?colors=[%22#d8b365%22,%22#5a6773%22,%22#7e8d9b%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22. Nenhum conflito foi encontrado entre as cores para diferentes tipos de deficiência visual.
+As cores escolhidas trabalham com um grau de contraste que permite diferencia-las entre si e destacar as informações de interesse. A combinação de cores foi testada para verificar se pessoas com alguma deficiência visual não conseguiriam distingui-las. O teste pode ser visto no site: https://projects.susielu.com/viz-palette?colors=[%22#d8b365%22,%22#5a6773%22,%22#7e8d9b%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22. Nenhum conflito foi encontrado entre as cores usadas para diferentes tipos de deficiência visual.
 
-Os arquivos de entrada para essas visualizações estão na pasta `output` e foram gerados no arquivo de Processamento dos Dados. Esses dados são carregados no ObervableHQ para alimentar as visualizações criadas. 
+Os arquivos de entrada para essas visualizações estão na pasta [output](output/) e foram gerados no arquivo de Processamento dos Dados. Esses dados são carregados no ObervableHQ para alimentar a visualização final.
+
+### Bibliotecas Utilizadas neste projeto
+
+* [API Base dos Dados](https://basedosdados.github.io/mais/api_reference_python/)
+* [Pandas](https://pandas.pydata.org/)
+* [Plotly](https://plotly.com/python/)
+* [D3.js](https://d3js.org/)
+
+### Contato
+
+Qualquer dúvida e sugestões:
+
+* Twitter: [@adolfoguimaraes](https://twitter.com/adolfoguimaraes)
+* Instagram: [@profadolfoguimaraes](https://instagram.com/profadolfoguimaraes)
